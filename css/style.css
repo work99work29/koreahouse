@@ -1,0 +1,226 @@
+/* layout */
+#header {
+    width: 100%;
+    border-bottom: 2px solid #555;
+    box-shadow: 0 5px 5px #413333;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#main {
+    width: 100%;
+    padding-top: 97px;
+    background-image: url(../img/pattern.jpg);
+}
+
+.container{
+    width: 1357px;
+    margin: 0 auto;
+}
+
+/* header */
+.header_inner {
+    height: 97px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo {
+    margin-bottom: 10px;
+}
+#nav {}
+#nav ul {
+    display: flex;
+}
+#nav ul li {
+}
+#nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    font-weight: 700;
+}
+#nav ul li a:hover {
+    color: rgb(92, 162, 228);
+}
+
+.menu_box {
+    display: flex;
+    align-items: center;
+}
+.menu_box span.totalmenu {
+    background-image: url(../img/bar.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 5px;
+    padding-left: 18px;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.menu_box .search_box {
+    display: flex;
+}
+.menu_box .search_box input{
+    width: 180px;
+    height: 42px;
+    background: #c4c4c4;
+    border: 1px solid #c9c9c9;
+    padding-left: 10px;
+}
+.menu_box .search_box button{
+    width: 42px;
+    height: 42px;
+    background: url(../img/icon.jpg) no-repeat center center;
+}
+
+/* 웹접근성 */
+button span {
+    text-indent: -99999;
+}
+
+/* main */
+.main_inner {
+    display: flex;
+}
+.left_content {
+    width: 315px;
+    height: 687px;
+    background-color: green;
+    display: flex;
+    flex-wrap: wrap;
+}
+.center_content {
+    width: 727px;
+    height: 687px;
+    background: #cc7d7d;
+}
+.right_content {
+    width: 315px;
+    height: 687px;
+    background: #000;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left_box01 , .left_box02, .right_box01, .right_box02 {
+    width: 315px;
+    height: 314px;
+    background: #2167a8;
+    padding: 48px 0 0 34px;
+    color: #fff;
+    position: relative;
+}
+.left_box03, .right_box03 {
+    width: 158px;
+    height: 59px;
+    text-align: center;
+    line-height: 59px;
+}
+.left_box04, .right_box04 {
+    width: 157px;
+    height: 59px;
+    text-align: center;
+    line-height: 59px;
+}
+
+
+/* box color */
+.left_box01 {
+    background-color: #cf3e4a;
+}
+
+.left_box02 {
+    background-color: #e0dfd4;
+}
+
+.right_box01 {
+    background-color: #414a68;
+}
+
+.right_box02 {
+    background-color: #66575b;
+}
+.left_box03 {background-color: #b2aea1;
+}
+.left_box04 {
+    background-color: #d0ccc0;
+}
+.right_box03 {
+    background-color: 58464a;
+}
+.right_box04 {
+    background-color: #423135;
+}
+
+
+
+
+/* detail */
+.sub_title {
+    font-size: 17px;
+    letter-spacing: -1px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1;
+    margin-top: 5px;
+}
+.box_title {
+    font-size: 14px;
+    letter-spacing: -1px;
+    margin-top: 10px;
+    width: 160px;
+    height: 32px;
+    border: 1px solid #ffffff;
+    text-align: center;
+    line-height: 30px;
+    /* 클릭 커서 포인터 관련
+    transtitionl - 클릭 버튼 시간 지연
+    cursor - 커서 버튼 변경 */
+    transition: 0.5s;
+    cursor: pointer;
+}
+.box_title:hover {
+    background-color: #fff;
+    color: #423135;
+}
+
+.box_img {
+    position: absolute;
+    right: 36px;
+    bottom: 20px;
+}
+.title02 {
+    font-size: 20px;
+    letter-spacing: -1px;
+}
+.sub_title02 {
+    margin-top: 8px;
+    font-size: 15px;
+    letter-spacing: -1px;   
+}
+
+.arrow_img {
+    position: absolute;
+    left: 38px;
+    bottom: 126px;
+}
+.dot_img {
+    position: absolute;
+    right: 33px;
+    top: 36px;
+}
+.hug_img {
+    position: absolute;
+    right: 33px;
+    bottom: 30px;
+}
+
+/* 글자색 */
+.brown {
+    color : #423135
+}
+.white {color: #fff;}
